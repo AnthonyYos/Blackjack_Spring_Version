@@ -1,0 +1,7 @@
+/applicationContext.xml
+/com/
+/names.properties
+/bin
+*.class
+*.jar
+!lib/*.jar
