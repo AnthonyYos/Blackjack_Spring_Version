@@ -8,8 +8,10 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
 	<!-- Add entry to enable component scanning -->
-	<context:component-scan base-package="com.anthony"></context:component-scan>
-	<context:property-placeholder location="classpath:names.properties"/>
+	<context:component-scan
+		base-package="com.anthony"></context:component-scan>
+	<context:property-placeholder
+		location="classpath:names.properties" />
 
 </beans>
 

@@ -1,6 +1,6 @@
 /applicationContext.xml
 /com/
-/names.properties
+names.properties
 /bin
 *.class
 *.jar
