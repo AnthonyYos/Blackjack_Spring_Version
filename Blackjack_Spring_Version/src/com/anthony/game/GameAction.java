@@ -38,7 +38,7 @@ public class GameAction {
 	static boolean playAgain() {
 		while (true) {
 			try {
-				System.out.println("Do you want to play again? Enter 'y' or 'n'");
+				System.out.println("\n\nDo you want to play again? Enter 'y' or 'n'");
 				char choice = Character.toLowerCase(input.next().charAt(0));
 				if (choice == 'y')
 					return true;
@@ -47,7 +47,7 @@ public class GameAction {
 				} else
 					throw new Exception("Invalid input entered");
 			} catch (Exception e) {
-				System.out.println("You entered an invalid choice");
+				System.out.println("\nYou entered an invalid choice");
 			}
 		}
 	}

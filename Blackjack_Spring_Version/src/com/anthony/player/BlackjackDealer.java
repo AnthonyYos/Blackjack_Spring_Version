@@ -34,8 +34,10 @@ public class BlackjackDealer extends Dealer {
 		String aceRank = "Ace";
 		if (aceRank.equals(card.getRank()))
 			aces += 1;
-		if (aces > 0 && handValue > maxBlackjackHand)
+		if (aces > 0 && handValue > maxBlackjackHand) {
 			adjustForAce();
+			System.out.println("Hand value adjusted for ace");
+		}
 	}
 
 	private void adjustForAce() {
